@@ -1,0 +1,13 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+
+<form (ngSubmit)="checkDate()">
+  <input type="date" [(ngModel)]="dob" datetime="yyyy-MM-dd">
+  <button type="submit">submit</button>
+</form>
+
+
+<p> {{dob}} </p>
